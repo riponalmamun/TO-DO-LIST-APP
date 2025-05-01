@@ -28,12 +28,12 @@
 
     /* Header Styles */
     header {
-      background-color: #ffffff;
+      background-color: #beffd7;
       padding: 20px 40px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
     }
 
     header .logo {
@@ -154,70 +154,70 @@
       text-align: center;
     }
     
-/* Contact Form Container */
-#contact {
-  background: #ffffff;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 350px;  /* Reduced width for a smaller box */
-  margin: 50px auto;
-  text-align: center;
-}
+    /* Contact Form Container */
+    #contact {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 350px;  /* Reduced width for a smaller box */
+      margin: 50px auto;
+      text-align: center;
+    }
 
-#contact h2 {
-  font-size: 30px;
-  color: #026b3d;
-  margin-bottom: 20px;
-}
+    #contact h2 {
+      font-size: 30px;
+      color: #026b3d;
+      margin-bottom: 20px;
+    }
 
-#contact p {
-  font-size: 18px;
-  color: #444;
-  margin-bottom: 20px;
-}
+    #contact p {
+      font-size: 18px;
+      color: #444;
+      margin-bottom: 20px;
+    }
 
-#contact form {
-  display: flex;
-  flex-direction: column;
-}
+    #contact form {
+      display: flex;
+      flex-direction: column;
+    }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact textarea {
-  width: 100%;
-  padding: 12px;
-  margin: 10px 0;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  font-size: 16px;
-}
+    #contact input[type="text"],
+    #contact input[type="email"],
+    #contact textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 16px;
+    }
 
-#contact button {
-  padding: 12px;
-  background-color: #38b869;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-}
+    #contact button {
+      padding: 12px;
+      background-color: #38b869;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
 
-#contact button:hover {
-  background-color: #2d9953;
-}
+    #contact button:hover {
+      background-color: #2d9953;
+    }
 
-#contact textarea {
-  height: 100px;  /* Set a height for the textarea */
-  resize: none;   /* Disable resizing */
-}
+    #contact textarea {
+      height: 100px;  /* Set a height for the textarea */
+      resize: none;   /* Disable resizing */
+    }
 
-@media (max-width: 768px) {
-  #contact {
-    width: 90%; /* Make the form container responsive */
-    margin: 20px auto;
-  }
-}
+    @media (max-width: 768px) {
+      #contact {
+        width: 90%; /* Make the form container responsive */
+        margin: 20px auto;
+      }
+    }
 
     @media (max-width: 768px) {
       header nav {
@@ -294,27 +294,26 @@
       display: none;
     }
 
-
     .model-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-}
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
 
-.card {
-  background: #f9f9f9;
-  padding: 1.5rem;
-  border-radius: 12px;
-  width: 250px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  text-align: center;
-}
+    .card {
+      background: #f9f9f9;
+      padding: 1.5rem;
+      border-radius: 12px;
+      width: 250px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
 
-.card .emoji {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
+    .card .emoji {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
 
   </style>
 </head>
@@ -370,110 +369,98 @@
     </div>
   </section>
 
-<!-- Features Section -->
-<section id="features">
-  <h2>✨ Features of Our To-Do App</h2>
-  <p>Explore the great features of our To-Do application to stay organized and boost productivity.</p>
-  <div class="model-buttons">
-
-    <!-- Feature 1 -->
-    <div class="card">
-      <div class="emoji">📋</div>
-      <h3>Task Management</h3>
-      <p>Organize and prioritize your tasks efficiently.</p>
+  <!-- Features Section -->
+  <section id="features">
+    <h2>✨ Features of Our To-Do App</h2>
+    <p>Explore the great features of our To-Do application to stay organized and boost productivity.</p>
+    <div class="model-buttons">
+      <!-- Feature 1 -->
+      <div class="card">
+        <div class="emoji">📋</div>
+        <h3>Task Management</h3>
+        <p>Organize and prioritize your tasks efficiently.</p>
+      </div>
+      <!-- Feature 2 -->
+      <div class="card">
+        <div class="emoji">🔔</div>
+        <h3>Reminders</h3>
+        <p>Get timely reminders for your tasks.</p>
+      </div>
+      <!-- Feature 3 -->
+      <div class="card">
+        <div class="emoji">📅</div>
+        <h3>Calendar Integration</h3>
+        <p>Sync tasks with your calendar for easy access.</p>
+      </div>
+      <!-- Feature 4 -->
+      <div class="card">
+        <div class="emoji">🗂️</div>
+        <h3>Organize with Categories</h3>
+        <p>Group your tasks by project, priority, or custom labels.</p>
+      </div>
+      <!-- Feature 6 -->
+      <div class="card">
+        <div class="emoji">📱</div>
+        <h3>Responsive Design</h3>
+        <p>Access your to-do list on desktop, tablet, or mobile devices.</p>
+      </div>
+      <!-- Feature 7 -->
+      <div class="card">
+        <div class="emoji">🔐</div>
+        <h3>Secure and Private</h3>
+        <p>Your data stays safe and accessible only to you.</p>
+      </div>
     </div>
+  </section>
 
-    <!-- Feature 2 -->
-    <div class="card">
-      <div class="emoji">🔔</div>
-      <h3>Reminders</h3>
-      <p>Get timely reminders for your tasks.</p>
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <h2>What Our Users Say</h2>
+    <p>Our users love the ease of use and effectiveness of the To-Do App. Here's what they have to say:</p>
+    <div class="model-buttons">
+      <!-- Testimonial 1 -->
+      <div class="card">
+        <div class="emoji">😊</div>
+        <h3>John Doe</h3>
+        <p>"This app has completely changed how I manage my day. Simple, fast, and super effective!"</p>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="card">
+        <div class="emoji">😊</div>
+        <h3>Sarah L., Freelancer</h3>
+        <p>"From grocery lists to work projects, this app keeps me organized without the stress."</p>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="card">
+        <div class="emoji">👍</div>
+        <h3>Jane Smith</h3>
+        <p>"I’ve tried many task managers, but this one just clicks. Love the clean design and reminders!"</p>
+      </div>
+
+      <!-- Testimonial 4 -->
+      <div class="card">
+        <div class="emoji">💼</div>
+        <h3>Raj M., Software Developer</h3>
+        <p>"Perfect tool for managing my sprint tasks and personal goals. It’s minimal yet powerful."</p>
+      </div>
+
+      <!-- Testimonial 5 -->
+      <div class="card">
+        <div class="emoji">🎯</div>
+        <h3>Ayesha K., Student</h3>
+        <p>"Helps me stay on top of assignments and exams. Super helpful reminders and categories!"</p>
+      </div>
+
+      <!-- Testimonial 6 -->
+      <div class="card">
+        <div class="emoji">🌟</div>
+        <h3>Michael T., Entrepreneur</h3>
+        <p>"I manage my team’s daily goals with this app. Easy to use and reliable – highly recommended."</p>
+      </div>
     </div>
-
-    <!-- Feature 3 -->
-    <div class="card">
-      <div class="emoji">📅</div>
-      <h3>Calendar Integration</h3>
-      <p>Sync tasks with your calendar for easy access.</p>
-    </div>
-
-    <!-- Feature 4 -->
-    <div class="card">
-      <div class="emoji">🗂️</div>
-      <h3>Organize with Categories</h3>
-      <p>Group your tasks by project, priority, or custom labels.</p>
-    </div>
-
-    <!-- Feature 6 -->
-    <div class="card">
-      <div class="emoji">📱</div>
-      <h3>Responsive Design</h3>
-      <p>Access your to-do list on desktop, tablet, or mobile devices.</p>
-    </div>
-
-    <!-- Feature 7 -->
-    <div class="card">
-      <div class="emoji">🔐</div>
-      <h3>Secure and Private</h3>
-      <p>Your data stays safe and accessible only to you.</p>
-    </div>
-
-  </div>
-</section>
-
-
-  
-
- <!-- Testimonials Section -->
-<section id="testimonials">
-  <h2>What Our Users Say</h2>
-  <p>Our users love the ease of use and effectiveness of the To-Do App. Here's what they have to say:</p>
-  <div class="model-buttons">
-
-    <!-- Testimonial 1 -->
-    <div class="card">
-      <div class="emoji">😊</div>
-      <h3>John Doe</h3>
-      <p>"This app has completely changed how I manage my day. Simple, fast, and super effective!"</p>
-    </div>
-
-    <!-- Testimonial 2 -->
-    <div class="card">
-      <div class="emoji">😊</div>
-      <h3>Sarah L., Freelancer</h3>
-      <p>"From grocery lists to work projects, this app keeps me organized without the stress."</p>
-    </div>
-
-    <!-- Testimonial 3 -->
-    <div class="card">
-      <div class="emoji">👍</div>
-      <h3>Jane Smith</h3>
-      <p>"I’ve tried many task managers, but this one just clicks. Love the clean design and reminders!"</p>
-    </div>
-
-    <!-- Testimonial 4 -->
-    <div class="card">
-      <div class="emoji">💼</div>
-      <h3>Raj M., Software Developer</h3>
-      <p>"Perfect tool for managing my sprint tasks and personal goals. It’s minimal yet powerful."</p>
-    </div>
-
-    <!-- Testimonial 5 -->
-    <div class="card">
-      <div class="emoji">🎯</div>
-      <h3>Ayesha K., Student</h3>
-      <p>"Helps me stay on top of assignments and exams. Super helpful reminders and categories!"</p>
-    </div>
-
-    <!-- Testimonial 6 -->
-    <div class="card">
-      <div class="emoji">🌟</div>
-      <h3>Michael T., Entrepreneur</h3>
-      <p>"I manage my team’s daily goals with this app. Easy to use and reliable – highly recommended."</p>
-    </div>
-
-  </div>
-</section>
+  </section>
 
   <!-- Contact Section -->
   <section id="contact">
@@ -491,6 +478,20 @@
   <footer>
     <p>&copy; Made By EWU Software Engineering Group 1</p>
   </footer>
+
+<!-- Start of Tawk.to Script -->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/68139cae3aab2b190ea2c56f/1iq69o387';  <!-- Replace this with your unique Tawk.to ID -->
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+  })();
+</script>
+<!-- End of Tawk.to Script -->
 
   <script>
     function toggleForms() {
